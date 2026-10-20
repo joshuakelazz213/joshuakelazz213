@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday, My Love</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="petals-container" id="petals"></div>
+
+  <div style="position:relative; z-index:2; text-align:center; padding: 2rem;">
+    <div class="gold-line"></div>
+    <p class="hero-eyebrow">With all my love &amp; heart</p>
+    <h1 class="hero-name">Fifta Arung Pamenta</h1>
+    <p class="hero-sub">Happy Birthday, My Love</p>
+    <div class="divider" style="margin:0 auto;">
+      <div class="divider-line"></div>
+      <div class="divider-diamond"></div>
+      <div class="divider-line"></div>
+    </div>
+    <p style="color:var(--gold-light); font-family:'Cormorant Garamond',serif; font-size:20px; font-style:italic; font-weight:300; margin-top:1.5rem;">
+      24 Oktober 2026
+    </p>
+  </div>
+
+  <div class="scroll-hint">
+    <span>scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- LETTER -->
+<section class="letter-section">
+  <div class="letter-inner">
+    <span class="section-label">A love letter</span>
+    <div class="divider"><div class="divider-line"></div><div class="divider-diamond"></div><div class="divider-line"></div></div>
+
+    <h2 class="letter-heading">Untuk Cintaku Fifta,</h2>
+
+    <p class="letter-body">
+      Di hari yang sangat-amat istimewa ini, aku ingin kamu tahu betapa berharganya dirimu dimataku, sosok wanita yang tak ku sangka-sangka akan hadir di hidupku namun malah membuatku sangat jatuh cinta padanya.
+      Hari-hariku bersamamu sebelum kita ldran (tawamu, senyummu, saat kita berboncengan sambil berpelukan, photobooth kita dan masih banyak lagi) adalah 
+      <em>momen-momen yang tak akan bisa aku lupakan</em>,
+      dan dihari ulang tahunmu ini walaupun aku tidak bisa memberi mu apapun selain ucapan, namun aku jadi semakin sadar bahwa betapa beruntungnya aku
+      bisa mencintai dan dicintai oleh seseorang seindah kamu.
+      <br><br>
+      Sosok yang selalu sabar dalam menghadapi tingkah laku ku, mengajarkan ku bagaimana mengatasi ego dan gengsi di dalam diriku.
+      Walaupun terkadang kita marahan hanya karena masalah sepeleh seperti chat, bahkan pernah sama-sama muak karena mementingkan ego masing-masing.
+      Namun, untungnya kita bisa melewati itu semua.
+      <br><br>
+      Bertelponan dengan mu di malam hari adalah momen yang selalu ku nanti-nantikan tiap malam,
+      hari-hariku yang berat seakan-akan hilang ketika mendengarkan dan melihatmu. Walaupun mungkin kita sekarang sudah sibuk dengan perkulihaan dan kegiatan kita lainnya
+      aku ingin agar kita tetap saling menjaga perasaan kita satu
+      <br><br>
+      Semoga hari ini dan hari-hari kita yang akan datang selalu dipenuhi dengan kebahagiaan,
+      dan bisa kita di lewati bersama
+      <br><br> 
+      <b>Love You Fifta Always and Forever.</b> 
+    </p>
+
+    <p class="letter-signature">Forever yours, Joshua 🩷</p>
+  </div>
+</section>
+
+<!-- PHOTO -->
+<section style="padding: 6rem 2rem; background: var(--Champagne); text-align:center;">
+  <span class="section-label">Momen Yang Tak Akan Bisa Aku Lupakan</span>
+  <div class="photo-section" style="padding:0;">
+    <div class="photo-frame">
+      <div class="photo-border"></div>
+      <span class="photo-corner tl"></span>
+      <span class="photo-corner tr"></span>
+      <span class="photo-corner bl"></span>
+      <span class="photo-corner br"></span>
+
+      <div id="photoArea">
+        <img src="Rawr.jpg" style="width:100%;height:100%;object-fit:cover;display:block;">
+      </div>
+      </div>
+    </div>
+  </div>
+  <p style="margin-top:3rem; font-family:'Cormorant Garamond',serif; font-size:22px; font-style:italic; color:var(--text-muted);">Photobooth Pertama Kita 🤍</p>
+</section>
+
+<!-- MOMENTS WITH YOU -->
+<section class="section moments-section" style="max-width:1100px;">
+  <span class="section-label">Our little memories</span>
+  <div class="divider"><div class="divider-line"></div><div class="divider-diamond"></div><div class="divider-line"></div></div>
+  <h2 class="moments-heading">Moments With You</h2>
+  <p class="moments-intro">Momen-Momen Bersamamu Yang Tak Akan Bisa lupakan
+                          <br> Sekarang Kita Hanya Bisa Kita Lihat Melalui Layar 
+                          <br> 🤍</p>
+  <div class="moments-carousel" aria-label="Galeri Moments With You">
+    <button class="carousel-btn prev" type="button" aria-label="Foto sebelumnya">&#10094;</button>
+    <div class="moments-track" id="momentsTrack">
+      <article class="moment-card">
+        <div class="moment-photo-wrap">
+          <img src="moment-1.jpg" alt="Kenangan kita 1" loading="lazy">
+          <span class="moment-number">01</span>
+        </div>
+        <p class="moment-caption">Fotbar Pertama [Budygrow]</p>
+      </article>
+      <article class="moment-card">
+        <div class="moment-photo-wrap">
+          <img src="moment-2.jpg" alt="Kenangan kita 2" loading="lazy">
+          <span class="moment-number">02</span>
+        </div>
+        <p class="moment-caption">Udah Berpacaran</p>
+      </article>
+      <article class="moment-card">
+        <div class="moment-photo-wrap">
+          <img src="moment-3.jpg" alt="Kenangan kita 3" loading="lazy">
+          <span class="moment-number">03</span>
+        </div>
+        <p class="moment-caption">Ngedate Pertama</p>
+      </article>
+      <article class="moment-card">
+        <div class="moment-photo-wrap">
+          <img src="moment-6.HEIC" alt="Kenangan kita 4" loading="lazy">
+          <span class="moment-number">04</span>
+        </div>
+        <p class="moment-caption">Eh Udah Lulus Aja</p>
+      </article>
+      <article class="moment-card">
+        <div class="moment-photo-wrap">
+          <img src="moment-5.HEIC" alt="Kenangan kita 5" loading="lazy">
+          <span class="moment-number">05</span>
+        </div>
+        <p class="moment-caption">Jumat Agung Bareng</p>
+      </article>
+      <article class="moment-card">
+        <div class="moment-photo-wrap">
+          <img src="moment-7.HEIC" alt="Kenangan kita 6" loading="lazy">
+          <span class="moment-number">06</span>
+        </div>
+        <p class="moment-caption">Ini Makan Sebelum Nonton</p>
+      </article>
+      <article class="moment-card">
+        <div class="moment-photo-wrap">
+          <img src="moment-8.HEIC" alt="Kenangan kita 7" loading="lazy">
+          <span class="moment-number">07</span>
+        </div>
+        <p class="moment-caption">Nonton Bioskop Bareng</p>
+      </article>
+      <article class="moment-card">
+        <div class="moment-photo-wrap">
+          <img src="moment-9.HEIC" alt="Kenangan kita 8" loading="lazy">
+          <span class="moment-number">08</span>
+        </div>
+        <p class="moment-caption">Fifta Pulang Ke Toraja</p>
+      </article>
+      <article class="moment-card">
+        <div class="moment-photo-wrap">
+          <img src="moment-4.HEIC" alt="Kenangan kita 9" loading="lazy">
+          <span class="moment-number">09</span>
+        </div>
+        <p class="moment-caption">Yah Fifta Pergi Ke China</p>
+      </article>
+            <article class="moment-card">
+        <div class="moment-photo-wrap">
+          <img src="moment-10.jpg" alt="Kenangan kita 9" loading="lazy">
+          <span class="moment-number">09</span>
+        </div>
+        <p class="moment-caption">Eh Udah LDR aja</p>
+      </article>
+    </div>
+    <button class="carousel-btn next" type="button" aria-label="Foto berikutnya">&#10095;</button>
+  </div>
+  <div class="carousel-dots" id="carouselDots" aria-label="Pilih foto"></div>
+</section>
+
+<!-- WISH -->
+<section class="wish-section">
+  <span class="section-label" style="color:var(--gold);">Birthday wish</span>
+  <p class="wish-quote">
+    "Semoga di usiamu yang baru ini, semua segala impianmu <span>bisa terwujud</span> — satu per satu. Semangat belajar di situ Fifta, maaf hanya bisa memberi ini."
+  </p>
+  <p class="wish-from">— Joshua , dari kejauhan yang akan selalu mencintaimu</p>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <span class="footer-heart">♡</span>
+  <p class="footer-text">Made with love · Joshua Patrik Paloboran &amp; Fifta Arung Pamenta</p>
+</footer>
+
+<!-- Background music: lagu.mp3, without visible controls -->
+<audio id="backgroundMusic" autoplay loop playsinline preload="auto" aria-hidden="true">
+  <source src="lagu.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
